@@ -5,6 +5,8 @@ Download mods for a Minecraft server, with three goals:
 -   Good optimisation so the game runs better (with Fabric API)
 -   Expanded world for exploration
 
+DOWNLOAD HERE: [https://github.com/johnc86/minecraft/releases](https://github.com/johnc86/minecraft/releases)
+
 I'm open to suggestions about adding new mods, but want to restrict the number of mods especially those which add significant gameplay features which can trivialise other parts of the game. The primary gameplay mod should be create.
 
 ## Setup Minecraft
