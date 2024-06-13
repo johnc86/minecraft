@@ -26,6 +26,8 @@ The primary gameplay changing mod.
 Library for the Fabric API.
 * [**Just Enough Items (JEI)**](https://modrinth.com/mod/jei) *(UI/Ux Improvement)*
 Shows you all the items/recipes, you can in theory play without this but it's basically required for create.
+* [**Create Power Loader**](https://modrinth.com/mod/create-power-loader-fabric/) *(Gameplay)*
+This adds a craftable chunkloader that comes with actual game mechanics. This will let us keep farms alive when nobody is logged on and ensure trains/contraptions continue to work when they stray into unloaded chunks.
 
 ## Optional Mods (Client Side)
 These mods should work completely optionally, they will be present on the server (so any additional features they provide will work) but you can turn them off if you don't like them.
@@ -48,15 +50,20 @@ Massive improvement for shulker box inventory management
 *  [**Sodium**](https://modrinth.com/mod/sodium),   [**Indium**](https://modrinth.com/mod/indium),   [**Iris**](https://modrinth.com/mod/iris),    [**Starlight**](https://modrinth.com/mod/starlight) 
 Rendering mods that make the game run faster/better. Iris is a shader manager compatible with Optifine, that lets you add shaders to make the game look prettier on Fabric.
 
+## Other Mods (at your discretion, read carefully!)
+* [**Distant Horizons**](https://modrinth.com/mod/distanthorizons) *(Game Experience)*
+A very clever mod that adds 'level of detail' rendering, allowing you to set MASSIVE render distances.
+*⚠️ Warning: this mod creates low-poly chunks of the world and saves to your minecraft folder. It is computationally expensive and uses quite a lot of hard disk space. If your computer/minecraft app is running slow or you're running out of disk space, remove this mod!*
+
 # Server
-[**Discord Integration**](*https://modrinth.com/plugin/dcintegration/) *(Server)*
+* [**Discord Integration**](https://modrinth.com/plugin/dcintegration/) *(Server)*
 In-game chat integrated with Discord!
 
 * [**FerriteCore**](https://modrinth.com/mod/ferrite-core),  [**ImmediatelyFast**](https://modrinth.com/mod/immediatelyfast),   [**Lithium**](https://modrinth.com/mod/lithium), [**Clumps**](https://modrinth.com/mod/clumps)  
 Optimisation mods that make things run faster/smoother. Mostly for the server, but can bring some FPS improvements to the client too.
 
-## Other Mods (at your discretion, read carefully!)
-* [**Distant Horizons**](https://modrinth.com/mod/distanthorizons) *(Game Experience)*
-A very clever mod that adds 'level of detail' rendering, allowing you to set MASSIVE render distances.
-*⚠️ Warning: this mod creates low-poly chunks of the world and saves to your minecraft folder. It is computationally expensive and uses quite a lot of hard disk space. If your computer/minecraft app is running slow or you're running out of disk space, remove this mod!*
+* [**Carpet**](https://github.com/gnembon/fabric-carpet/wiki/) *(Server)*
+Lets us add bots that do stuff, and other handy stuff
+
+
 
